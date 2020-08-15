@@ -1,0 +1,8 @@
+@import "../../assets/styles/Variables.scss";
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  background: $bgColor;
+  backdrop-filter: blur(5px);
+}

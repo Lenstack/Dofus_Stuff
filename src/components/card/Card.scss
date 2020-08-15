@@ -1,0 +1,41 @@
+@import "../../assets/styles/Variables.scss";
+
+.card {
+  width: 250px;
+  height: 300px;
+  background: $bgColor;
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+    "card_header"
+    "card_body"
+    "card_footer";
+}
+
+.card_fluid {
+  width: 900px;
+  height: 400px;
+  background: $bgColor;
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+    "card_header"
+    "card_body"
+    "card_footer";
+}
+
+.card_header {
+  grid-area: card_header;
+}
+
+.card_body {
+  grid-area: card_body;
+}
+
+.card_footer {
+  grid-area: card_footer;
+}
